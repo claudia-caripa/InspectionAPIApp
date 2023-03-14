@@ -14,6 +14,7 @@ namespace InspectionAPI
 
         public int InspectionTypeId { get; set; }
 
+        //Navigation property
         public InspectionType? InspectionType { get; set; }
     }
 }
